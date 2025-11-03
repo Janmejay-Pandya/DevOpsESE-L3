@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Payment Gateway</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Welcome Back</h1>
+        <p class="subtitle">Login to your Payment Gateway account</p>
+
+        <form id="loginForm">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="user@example.com"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="••••••••"
+            required
+          />
+
+          <button type="submit">Login</button>
+          <p id="loginStatus" class="status"></p>
+        </form>
+
+        <div class="extras">
+          <a href="#">Forgot Password?</a>
+          <a href="#">Create an Account</a>
+        </div>
+      </div>
+
+      <footer>
+        <small>Demo Login — any credentials will work</small>
+      </footer>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
